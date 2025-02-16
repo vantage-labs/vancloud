@@ -29,24 +29,24 @@ const CounterSection = () => {
                             data-aos-duration="600"
                             data-aos-easing="ease">
                             <div className="p-sm-30 pb-sm-0 mb-sm-0">
-                                <h2>New functionality brings maximum <span className="color-gradient">power</span> to your website.</h2>
-                                <p>Reliable web hosting solutions: empowering your online presence with unparalleled performance, exceptional support, and hassle-free scalability.</p>
+                                <h2>Fitur baru menghadirkan <span className="color-gradient">kekuatan maksimal</span> ke situs web Anda.</h2>
+                                <p>Solusi hosting web yang andal: memberdayakan kehadiran online Anda dengan performa tak tertandingi, dukungan luar biasa, dan skalabilitas tanpa hambatan.</p>
                                 <div className="row">
                                     <div className="col-md-5">
                                         <ul className="ul-style-2">
-                                            <li><h4>Instant Activation</h4></li>
-                                            <li><h4>99.9% Uptime</h4></li>
+                                            <li><h4>Aktivasi Instan</h4></li>
+                                            <li><h4>Uptime 99.9%</h4></li>
                                         </ul>
                                     </div>
                                     <div className="col-md-5">
                                         <ul className="ul-style-2">
-                                            <li><h4>Reliable Hardware</h4></li>
-                                            <li><h4>24 / 7 Support</h4></li>
+                                            <li><h4>Perangkat Keras Andal</h4></li>
+                                            <li><h4>Dukungan 24/7</h4></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="spacer-half"></div>
-                                <a className="btn-main" href="#">Learn More</a>
+                                <a className="btn-main" href="#">Pelajari Lebih Lanjut</a>
                             </div>
                         </div>
                     </div>
@@ -64,8 +64,8 @@ const CounterSection = () => {
                             <h3 className="timer">
                             <CountUpOnScroll start={0} end={15425} duration={3} />
                             </h3>
-                            Website Powered
-                            <p className="d-small">Lorem ipsum adipisicing officia in adipisicing do velit sit tempor ea consectetur.</p>
+                            Website Terlayani
+                            <p className="d-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                         </div>
 
@@ -77,8 +77,8 @@ const CounterSection = () => {
                             <h3 className="timer">
                             <CountUpOnScroll start={0} end={8745} duration={3} />
                             </h3>
-                            Clients Supported
-                            <p className="d-small">Lorem ipsum adipisicing officia in adipisicing do velit sit tempor ea consectetur.</p>
+                            Klien Didukung
+                            <p className="d-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                         </div>
 
@@ -90,8 +90,8 @@ const CounterSection = () => {
                             <h3 className="timer">
                             <CountUpOnScroll start={0} end={235} duration={3} />
                             </h3>
-                            Awards Winning
-                            <p className="d-small">Lorem ipsum adipisicing officia in adipisicing do velit sit tempor ea consectetur.</p>
+                            Penghargaan Dimenangkan
+                            <p className="d-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                         </div>
 
@@ -104,8 +104,8 @@ const CounterSection = () => {
                             <h3 className="timer">
                             <CountUpOnScroll start={0} end={15} duration={3} />
                             </h3>
-                            Years Experience
-                            <p className="d-small">Lorem ipsum adipisicing officia in adipisicing do velit sit tempor ea consectetur.</p>
+                            Tahun Pengalaman
+                            <p className="d-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                         </div>
                     </div>
@@ -116,4 +116,4 @@ const CounterSection = () => {
     );
 }
 
-export default CounterSection ;
+export default CounterSection;

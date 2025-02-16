@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -19,29 +18,29 @@ const Manage = () => {
         data-aos-easing="ease">
         <div className="row">
           <div className="col-lg-6 offset-lg-3 text-center">
-            <h5 className="s2">Easy Steps</h5>
-            <h2>How It Works</h2>
-            <p className="lead">Easy hosting made simple: streamlined steps for seamless website setup and management.</p>
+            <h5 className="s2">Langkah Mudah</h5>
+            <h2>Cara Kerjanya</h2>
+            <p className="lead">Hosting mudah dan sederhana: langkah-langkah yang disederhanakan untuk pengaturan dan pengelolaan situs web yang mulus.</p>
             <div className="spacer-20"></div>
           </div>
           <div className="col-md-12 wow fadeInUp">
             <div className="container-timeline">
               <ul>
                 <li>
-                  <h4>Select Plan</h4>
-                  <p>Selecting the right hosting plan for the success of your website. Tailored to meet your specific needs.</p>
+                  <h4>Pilih Paket</h4>
+                  <p>Pilih paket hosting yang sesuai untuk kesuksesan situs web Anda. Disesuaikan dengan kebutuhan spesifik Anda.</p>
                 </li>
                 <li>
-                  <h4>Choose Domain</h4>
-                  <p>Choose a domain name that reflects your website's purpose, content, or the nature of your business.</p>
+                  <h4>Pilih Domain</h4>
+                  <p>Pilih nama domain yang mencerminkan tujuan, konten, atau sifat bisnis situs web Anda.</p>
                 </li>
                 <li>
-                  <h4>Login/Register</h4>
-                  <p>Take the first step towards creating your website and reaching a wider audience by registering today.</p>
+                  <h4>Masuk/Daftar</h4>
+                  <p>Ambil langkah pertama untuk membuat situs web Anda dan menjangkau audiens yang lebih luas dengan mendaftar hari ini.</p>
                 </li>
                 <li>
-                  <h4>Make Payment</h4>
-                  <p>We offer a variety of secure payment methods to make your payment process convenient and hassle-free.</p>
+                  <h4>Lakukan Pembayaran</h4>
+                  <p>Kami menawarkan berbagai metode pembayaran yang aman untuk membuat proses pembayaran Anda lebih nyaman dan bebas hambatan.</p>
                 </li>
               </ul>
             </div>

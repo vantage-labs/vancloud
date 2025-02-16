@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -16,11 +15,11 @@ const Server = () => {
         <div className="row">
           <div className="col-lg-6 offset-lg-3">
             <div className="col text-center">
-              <h5 className="s2">Discover</h5>
-              <h2>Server Locations</h2>
+              <h5 className="s2">Temukan</h5>
+              <h2>Lokasi Server</h2>
               <p className="lead">
-                Global reach, local performance: accelerate your website's speed
-                and user experience with strategic server locations worldwide.
+                Jangkauan global, performa lokal: percepat kecepatan situs web Anda
+                dan tingkatkan pengalaman pengguna dengan lokasi server strategis di seluruh dunia.
               </p>
               <div className="spacer-20"></div>
             </div>
@@ -38,7 +37,7 @@ const Server = () => {
                   className="de-spot wow fadeIn"
                   style={{ top: "39%", left: "20%" }}
                 >
-                  <span>United&nbsp;States</span>
+                  <span>Amerika Serikat</span>
                   <div className="de-circle-1"></div>
                   <div className="de-circle-2"></div>
                 </div>
@@ -62,7 +61,7 @@ const Server = () => {
                   className="de-spot wow fadeIn"
                   style={{ top: "23%", left: "18%" }}
                 >
-                  <span>Canada</span>
+                  <span>Kanada</span>
                   <div className="de-circle-1"></div>
                   <div className="de-circle-2"></div>
                 </div>
@@ -70,7 +69,7 @@ const Server = () => {
                   className="de-spot wow fadeIn"
                   style={{ top: "68%", left: "33%" }}
                 >
-                  <span>Brazil</span>
+                  <span>Brasil</span>
                   <div className="de-circle-1"></div>
                   <div className="de-circle-2"></div>
                 </div>
@@ -78,7 +77,7 @@ const Server = () => {
                   className="de-spot wow fadeIn"
                   style={{ top: "45%", left: "75%" }}
                 >
-                  <span>China</span>
+                  <span>Tiongkok</span>
                   <div className="de-circle-1"></div>
                   <div className="de-circle-2"></div>
                 </div>
@@ -86,7 +85,7 @@ const Server = () => {
                   className="de-spot wow fadeIn"
                   style={{ top: "36%", left: "48%" }}
                 >
-                  <span>France</span>
+                  <span>Prancis</span>
                   <div className="de-circle-1"></div>
                   <div className="de-circle-2"></div>
                 </div>
@@ -94,7 +93,7 @@ const Server = () => {
                   className="de-spot wow fadeIn"
                   style={{ top: "23%", left: "51%" }}
                 >
-                  <span>Sweden</span>
+                  <span>Swedia</span>
                   <div className="de-circle-1"></div>
                   <div className="de-circle-2"></div>
                 </div>
@@ -102,11 +101,11 @@ const Server = () => {
                   className="de-spot wow fadeIn"
                   style={{ top: "78%", left: "53%" }}
                 >
-                  <span>South&nbsp;Africa</span>
+                  <span>Afrika Selatan</span>
                   <div className="de-circle-1"></div>
                   <div className="de-circle-2"></div>
                 </div>
-                <img src="images/misc/map.png" className="img-fluid" alt="" />
+                <img src="images/misc/map.png" className="img-fluid" alt="Peta Lokasi Server" />
               </div>
             </div>
           </div>

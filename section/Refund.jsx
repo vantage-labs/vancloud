@@ -20,8 +20,7 @@ const Refund = () => {
           <div className="col-lg-4 col-md-6">
             <div className="p-sm-30 pb-sm-0 mb-sm-0">
               <h2>
-                <span className="color-gradient">30 days</span> money back
-                guarantee
+                <span className="color-gradient">30 hari</span> garansi uang kembali
               </h2>
             </div>
           </div>
@@ -30,15 +29,14 @@ const Refund = () => {
             <div className="p-sm-30">
               <div className="spacer-20 sm-hide"></div>
               <p className="lead">
-                If you're not satisfied, we will refund your payment. No hassle,
-                no risk. You can cancel the plan at any time.
+                Jika Anda tidak puas, kami akan mengembalikan pembayaran Anda. Tanpa ribet, tanpa risiko. Anda dapat membatalkan paket kapan saja.
               </p>
               <div className="spacer-half"></div>
               <a className="btn-main" href="#">
-                Get Started
+                Mulai Sekarang
               </a>
               <p className="d-small mt20">
-                *Cancellation must be within a maximum of 30 days
+                *Pembatalan harus dilakukan dalam waktu maksimal 30 hari
               </p>
             </div>
           </div>

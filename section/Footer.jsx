@@ -8,7 +8,7 @@ import Img2 from '../public/images/payments-logo/master-card.png';
 import Img3 from '../public/images/payments-logo/jcb.png';
 import Img4 from '../public/images/payments-logo/paypal.png';
 
-const footer = () => {
+const Footer = () => {
     const currentYear = new Date().getFullYear();
     return(
         <footer className="footer-light">
@@ -18,16 +18,16 @@ const footer = () => {
                         <Link href="#">
                             <Image src={Logo} alt="logofooter"/>
                             <div className="spacer-20"></div>
-                            <p>We are Hostco, a web hosting company with 24/7 customer support. We provide best hosting solutions for your hosting needs. Our clients from personal to corporate. Our data center are all over the world to ensure your website is always up. You can choose shared hosting, vps hosting or cloud hosting. You can also be hosting reseller here. Happy hosting with us.</p>
+                            <p>Kami adalah Hostco, perusahaan hosting web dengan dukungan pelanggan 24/7. Kami menyediakan solusi hosting terbaik untuk kebutuhan Anda. Klien kami mencakup individu hingga perusahaan besar. Data center kami tersebar di seluruh dunia untuk memastikan situs web Anda selalu online. Anda dapat memilih shared hosting, VPS hosting, atau cloud hosting. Anda juga bisa menjadi reseller hosting di sini. Selamat menikmati layanan hosting bersama kami.</p>
                         </Link>
                         <div className="spacer-10"></div>
                         <div className="widget">
-                            <h5>We Accepted</h5>
+                            <h5>Kami Menerima</h5>
                             <Image src={Img1} className="img-card-sm" alt="logo"/>
                             <Image src={Img2} className="img-card-sm" alt="logo"/>
                             <Image src={Img3} className="img-card-sm" alt="logo"/>
                             <Image src={Img4} className="img-card-sm" alt="logo"/>
-                            </div>
+                        </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="row">
@@ -48,16 +48,16 @@ const footer = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="widget">
-                            <h5>Company</h5>
+                            <h5>Perusahaan</h5>
                             <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Affiliates</a></li>
+                                <li><a href="#">Tentang Kami</a></li>
+                                <li><a href="#">Afiliasi</a></li>
                                 <li><a href="#">Blog</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">Community</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Partners</a></li>
-                                <li><a href="#">Press Releases</a></li>
+                                <li><a href="#">Karier</a></li>
+                                <li><a href="#">Komunitas</a></li>
+                                <li><a href="#">Berita</a></li>
+                                <li><a href="#">Mitra</a></li>
+                                <li><a href="#">Siaran Pers</a></li>
                             </ul>
                         </div>
                     </div>
@@ -66,18 +66,18 @@ const footer = () => {
                     <div className="col-lg-4">
                         <div className="widget">
                             <h5>Newsletter</h5>
-                            <p>Signup for our newsletter to get the latest news in your inbox.</p>
+                            <p>Daftar ke newsletter kami untuk mendapatkan berita terbaru langsung ke email Anda.</p>
                             <form action="blank.php" className="row form-dark" id="form_subscribe" method="post" name="form_subscribe">
                                 <div className="col text-center">
-                                    <input className="form-control" id="txt_subscribe" name="txt_subscribe" placeholder="enter your email" type="text" /> <a href="#" id="btn-subscribe"><i className="arrow_right bg-color-secondary"></i></a>
+                                    <input className="form-control" id="txt_subscribe" name="txt_subscribe" placeholder="Masukkan email Anda" type="text" /> <a href="#" id="btn-subscribe"><i className="arrow_right bg-color-secondary"></i></a>
                                     <div className="clearfix"></div>
                                 </div>
                             </form>
                             <div className="spacer-10"></div>
-                            <small>Your email is safe with us. We don't spam.</small>
+                            <small>Email Anda aman bersama kami. Kami tidak mengirimkan spam.</small>
                             <div className="spacer-30"></div>
                             <div className="widget">
-                                <h5>Follow Us on</h5>
+                                <h5>Ikuti Kami di</h5>
                                 <div className="social-icons">
                                     <a href="#"><i className="fa fa-facebook fa-lg"></i></a>
                                     <a href="#"><i className="fa fa-twitter fa-lg"></i></a>
@@ -97,12 +97,12 @@ const footer = () => {
                             <div className="de-flex">
                                 <div className="de-flex-col">
                                     <Link href="">
-                                        Copyright {currentYear} - Hostco by Designesia
+                                        Hak Cipta {currentYear} - Hostco oleh Designesia
                                     </Link>
                                 </div>
                                 <ul className="menu-simple">
-                                    <li><a href="#">Terms &amp; Conditions</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Syarat &amp; Ketentuan</a></li>
+                                    <li><a href="#">Kebijakan Privasi</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -113,4 +113,4 @@ const footer = () => {
     );
 }
 
-export default footer;
+export default Footer;

@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from 'next/image';
 import { Pagination, Autoplay  } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { useEffect } from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -24,14 +23,14 @@ const Testimonial = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 offset-lg-3 text-center">
-            <h5 className="s2">Testimonials</h5>
+            <h5 className="s2">Testimoni</h5>
             <h2>
-              Trusted by over 5,000 happy customers{" "}
-              <span className="id-color">worldwide</span>
+              Dipercaya oleh lebih dari 5.000 pelanggan
+              <span className="id-color">di seluruh dunia</span>
             </h2>
             <p className="lead">
-              Trusted by customers, empowering their online success with
-              reliable solutions and exceptional support.
+              Dipercaya oleh pelanggan, mendukung kesuksesan online mereka dengan
+              solusi yang andal dan dukungan luar biasa.
             </p>
             <div className="spacer-20"></div>
           </div>
@@ -66,11 +65,9 @@ const Testimonial = () => {
             <SwiperSlide>
               <div className="de_testi type-2">
                 <blockquote>
-                  <h4>Excellent Hosting</h4>
+                  <h4>Hosting Luar Biasa</h4>
                   <p>
-                    Great support, like I have never seen before. Thanks to the
-                    support team, they are very helpful. This company provides
-                    customers great solutions, which makes them the best.
+                    Dukungan yang luar biasa, seperti yang belum pernah saya lihat sebelumnya. Terima kasih kepada tim dukungan, mereka sangat membantu. Perusahaan ini menyediakan solusi hebat bagi pelanggan, menjadikannya yang terbaik.
                   </p>
                   <div className="de_testi_by">
                      <Image src={image1} className="rounded-circle" alt="image"/>
@@ -82,11 +79,9 @@ const Testimonial = () => {
             <SwiperSlide>
               <div className="de_testi type-2">
                 <blockquote>
-                  <h4>Excellent Hosting</h4>
+                  <h4>Hosting Luar Biasa</h4>
                   <p>
-                    Great support, like I have never seen before. Thanks to the
-                    support team, they are very helpful. This company provides
-                    customers great solutions, which makes them the best.
+                    Dukungan yang luar biasa, seperti yang belum pernah saya lihat sebelumnya. Terima kasih kepada tim dukungan, mereka sangat membantu. Perusahaan ini menyediakan solusi hebat bagi pelanggan, menjadikannya yang terbaik.
                   </p>
                   <div className="de_testi_by">
                     <Image src={image2} className="rounded-circle" alt="image"/>
@@ -98,11 +93,9 @@ const Testimonial = () => {
             <SwiperSlide>
               <div className="de_testi type-2">
                 <blockquote>
-                  <h4>Excellent Hosting</h4>
+                  <h4>Hosting Luar Biasa</h4>
                   <p>
-                    Great support, like I have never seen before. Thanks to the
-                    support team, they are very helpful. This company provides
-                    customers great solutions, which makes them the best.
+                    Dukungan yang luar biasa, seperti yang belum pernah saya lihat sebelumnya. Terima kasih kepada tim dukungan, mereka sangat membantu. Perusahaan ini menyediakan solusi hebat bagi pelanggan, menjadikannya yang terbaik.
                   </p>
                   <div className="de_testi_by">
                     <Image src={image3} className="rounded-circle" alt="image"/>
@@ -114,11 +107,9 @@ const Testimonial = () => {
             <SwiperSlide>
               <div className="de_testi type-2">
                 <blockquote>
-                  <h4>Excellent Hosting</h4>
+                  <h4>Hosting Luar Biasa</h4>
                   <p>
-                    Great support, like I have never seen before. Thanks to the
-                    support team, they are very helpful. This company provides
-                    customers great solutions, which makes them the best.
+                    Dukungan yang luar biasa, seperti yang belum pernah saya lihat sebelumnya. Terima kasih kepada tim dukungan, mereka sangat membantu. Perusahaan ini menyediakan solusi hebat bagi pelanggan, menjadikannya yang terbaik.
                   </p>
                   <div className="de_testi_by">
                     <Image src={image4} className="rounded-circle" alt="image"/>
@@ -127,10 +118,8 @@ const Testimonial = () => {
                 </blockquote>
               </div>
             </SwiperSlide>
-
           </Swiper>
           </div>
-
         </div>
       </div>
     </section>
