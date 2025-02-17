@@ -47,7 +47,7 @@ const Package2 = () => {
               </thead>
               <tbody className={`${otherElementClassName}`}>
                 <tr>
-                  <th><span className="lbl">Package name</span>Hostco 16</th>
+                  <th><span className="lbl">Package name</span>vntagelabs 16</th>
                   <td><span className="lbl">CPU</span>2 Core</td>
                   <td><span className="lbl">Ram</span>8 GB</td>
                   <td><span className="lbl">Disk</span>1 TB</td>
@@ -61,7 +61,7 @@ const Package2 = () => {
                 </tr>
                 
                 <tr>
-                  <th><span className="lbl">Package name</span>Hostco 32</th>
+                  <th><span className="lbl">Package name</span>vntagelabs 32</th>
                   <td><span className="lbl">CPU</span>4 Core</td>
                   <td><span className="lbl">RAM</span>8 GB</td>
                   <td><span className="lbl">Disk</span>2 TB</td>
@@ -75,7 +75,7 @@ const Package2 = () => {
                 </tr>
                 
                 <tr>
-                  <th><span className="lbl">Package name</span>Hostco 64</th>
+                  <th><span className="lbl">Package name</span>vntagelabs 64</th>
                   <td><span className="lbl">CPU</span>4 Core</td>
                   <td><span className="lbl">RAM</span>16 GB</td>
                   <td><span className="lbl">Disk</span>4 TB</td>
@@ -89,7 +89,7 @@ const Package2 = () => {
                 </tr>
                 
                 <tr>
-                  <th><span className="lbl">Package name</span>Hostco 128</th>
+                  <th><span className="lbl">Package name</span>vntagelabs 128</th>
                   <td><span className="lbl">CPU</span>6 Core</td>
                   <td><span className="lbl">RAM</span>16 GB</td>
                   <td><span className="lbl">Disk</span>6 TB</td>
@@ -103,7 +103,7 @@ const Package2 = () => {
                 </tr>
                 
                 <tr>
-                  <th><span className="lbl">Package name</span>Hostco 256</th>
+                  <th><span className="lbl">Package name</span>vntagelabs 256</th>
                   <td><span className="lbl">CPU</span>6 Core</td>
                   <td><span className="lbl">RAM</span>32 GB</td>
                   <td><span className="lbl">Disk</span>8 TB</td>
@@ -117,7 +117,7 @@ const Package2 = () => {
                 </tr>
                 
                 <tr>
-                  <th><span className="lbl">Package name</span>Hostco 512</th>
+                  <th><span className="lbl">Package name</span>vntagelabs 512</th>
                   <td><span className="lbl">CPU</span>8 Core</td>
                   <td><span className="lbl">RAM</span>32 GB</td>
                   <td><span className="lbl">Disk</span>8 TB</td>
@@ -131,7 +131,7 @@ const Package2 = () => {
                 </tr>
                 
                 <tr>
-                  <th><span className="lbl">Package name</span>Hostco 1024</th>
+                  <th><span className="lbl">Package name</span>vntagelabs 1024</th>
                   <td><span className="lbl">CPU</span>8 Core</td>
                   <td><span className="lbl">RAM</span>64 GB</td>
                   <td><span className="lbl">Disk</span>10 TB</td>

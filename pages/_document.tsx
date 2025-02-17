@@ -4,7 +4,6 @@ export default function Document(): JSX.Element {
   return (
     <Html lang="id">
       <Head>
-        
         {/* Meta Utama */}
         <meta name="description" content="VanCloud adalah layanan cloud hosting premium dari Vantage Labs. Nikmati kecepatan tinggi, keamanan maksimal, dan fleksibilitas untuk website & bisnis Anda." />
         <meta name="keywords" content="VanCloud, cloud hosting Indonesia, VPS, dedicated server, hosting terbaik, hosting bisnis, hosting cepat, hosting aman, Vantage Labs" />
@@ -28,6 +27,9 @@ export default function Document(): JSX.Element {
         <meta name="twitter:title" content="VanCloud - Cloud Hosting Cepat, Aman, & Scalable" />
         <meta name="twitter:description" content="VanCloud dari Vantage Labs menawarkan hosting berkinerja tinggi dengan server cepat, aman, dan fleksibel untuk kebutuhan bisnis modern." />
         <meta name="twitter:image" content="https://www.vancloud.com/assets/images/vancloud-preview.jpg" />
+        
+        {/* Favicon */}
+        <link rel="icon" type="image/png" href="https://res.cloudinary.com/dt27bjldq/image/upload/v1739807305/logo-square_hfual5.png" />
       </Head>
       <body>
         <Main />

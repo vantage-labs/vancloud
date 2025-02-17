@@ -16,7 +16,7 @@ const Topbar = () => {
                         <Link href="/#"><i className="fa fa-phone"></i>+208 333 9296</Link>
                     </div>
                     <div className="topbar-widget">
-                        <Link href="/#"><i className="fa fa-envelope"></i>support@hostco.com</Link>
+                        <Link href="/#"><i className="fa fa-envelope"></i>support@vntagelabs.com</Link>
                     </div>
                 </div>  
                 <div className="clearfix"></div>

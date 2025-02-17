@@ -27,10 +27,10 @@ const Testimonial2 = () => {
               </div>
               <h4>Excellent Hosting Service!</h4>
               <blockquote>
-                I have been using Hostco for my web hosting needs for over 5
+                I have been using vntagelabs for my web hosting needs for over 5
                 years now. I have never had any problems with their service.
                 Their customer support is always responsive and helpful. I would
-                recommend Hostco to anyone looking for a reliable web hosting
+                recommend vntagelabs to anyone looking for a reliable web hosting
                 provider.
                 <span className="by">Stepanie Hutchkiss</span>
               </blockquote>
@@ -51,7 +51,7 @@ const Testimonial2 = () => {
               </div>
               <h4>Excellent Hosting Service!</h4>
               <blockquote>
-                We have been using Hostco for our web hosting needs for several
+                We have been using vntagelabs for our web hosting needs for several
                 years now and have always been happy with their service. Their
                 customer support is excellent and they are always available to
                 help with any issues we have. Their prices are also very
@@ -75,7 +75,7 @@ const Testimonial2 = () => {
               </div>
               <h4>Excellent Hosting Service!</h4>
               <blockquote>
-                Endorsed by industry experts, Hostco is the web hosting solution
+                Endorsed by industry experts, vntagelabs is the web hosting solution
                 you can trust. With years of experience in the field, we provide
                 fast, reliable and secure web hosting services.
                 <span className="by"> Kanesha Keyton</span>

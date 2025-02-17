@@ -45,6 +45,8 @@ export default function Home() {
       <Head>
         <title>VanCloud - Solusi Cloud Hosting Cepat & Aman dari Vantage Labs</title>
 
+        {/* Favicon */}
+        <link rel="icon" type="image/png" href="https://res.cloudinary.com/dt27bjldq/image/upload/v1739807305/logo-square_hfual5.png" />
 
         {/* Meta Utama */}
         <meta name="description" content="VanCloud adalah layanan cloud hosting premium dari Vantage Labs. Nikmati kecepatan tinggi, keamanan maksimal, dan fleksibilitas untuk website & bisnis Anda." />

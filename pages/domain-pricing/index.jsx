@@ -33,7 +33,7 @@ export default function Domain() {
   return (
     <>
     <Head>
-      <title>Hostco - Modern Web Hosting & WHMCS Template</title>
+      <title>vntagelabs - Modern Web Hosting & WHMCS Template</title>
     </Head>
 
     <GlobalStyles/>

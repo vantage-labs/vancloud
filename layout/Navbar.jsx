@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import Link from 'next/link';
 import Image from 'next/image';
 
-import logoImg from '../public/images/logo.png';
-import logoImgwhite from '../public/images/logo-light.png';
-import logoImggreen from '../public/images/logo-green.png';
-import logoImg1 from '../public/images/logo-mobile.png';
+// import logoImg from '../public/images/logo.png';
+// import logoImgwhite from '../public/images/logo-light.png';
+// import logoImggreen from '../public/images/logo-green.png';
+// import logoImg1 from '../public/images/logo-mobile.png';
 
 import Hosting1 from '../public/images/svg/server-svgrepo-com.svg';
 import Hosting2 from '../public/images/svg/cloud-svgrepo-com.svg';
@@ -52,10 +52,10 @@ const Navbar = function () {
                 <div className="dekstopmenu">
                     <div className="de-flex-col header-col-mid">
                         <Link className="navbar-brand" href="/">
-                            <Image src={logoImg} className="img-fluid logo-main" alt="logo" />
-                            <Image src={logoImgwhite} className="img-fluid logo-main white" alt="logo" />
-                            <Image src={logoImggreen} className="img-fluid logo-main green" alt="logo" />
-                            <Image src={logoImg1} className="img-fluid logo-mobile" alt="logo" />
+                            <Image width={300} height={300} src={'https://res.cloudinary.com/dt27bjldq/image/upload/v1739807305/logo_qeavtg.png'} className="img-fluid logo-main" alt="logo" />
+                            <Image width={300} height={300} src={'https://res.cloudinary.com/dt27bjldq/image/upload/v1739807305/logo_qeavtg.png'} className="img-fluid logo-main white" alt="logo" />
+                            <Image width={300} height={300} src={'https://res.cloudinary.com/dt27bjldq/image/upload/v1739807305/logo_qeavtg.png'} className="img-fluid logo-main green" alt="logo" />
+                            <Image width={300} height={300} src={'https://res.cloudinary.com/dt27bjldq/image/upload/v1739807305/logo_qeavtg.png'} className="img-fluid logo-mobile" alt="logo" />
                         </Link>
                     </div>
 

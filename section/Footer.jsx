@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import Logo from '../public/images/logo.png';
+// import Logo from '../public/images/logo.png';
 import Img1 from '../public/images/payments-logo/visa.png';
 import Img2 from '../public/images/payments-logo/master-card.png';
 import Img3 from '../public/images/payments-logo/jcb.png';
@@ -16,9 +16,9 @@ const Footer = () => {
                 <div className="row g-custom-x">
                     <div className="col-lg-4">
                         <Link href="#">
-                            <Image src={Logo} alt="logofooter"/>
+                            <Image width={250} height={40} src={'https://res.cloudinary.com/dt27bjldq/image/upload/v1739807305/logo_qeavtg.png'} alt="logofooter"/>
                             <div className="spacer-20"></div>
-                            <p>Kami adalah Hostco, perusahaan hosting web dengan dukungan pelanggan 24/7. Kami menyediakan solusi hosting terbaik untuk kebutuhan Anda. Klien kami mencakup individu hingga perusahaan besar. Data center kami tersebar di seluruh dunia untuk memastikan situs web Anda selalu online. Anda dapat memilih shared hosting, VPS hosting, atau cloud hosting. Anda juga bisa menjadi reseller hosting di sini. Selamat menikmati layanan hosting bersama kami.</p>
+                            <p>Kami adalah vntagelabs, perusahaan hosting web dengan dukungan pelanggan 24/7. Kami menyediakan solusi hosting terbaik untuk kebutuhan Anda. Klien kami mencakup individu hingga perusahaan besar. Data center kami tersebar di seluruh dunia untuk memastikan situs web Anda selalu online. Anda dapat memilih shared hosting, VPS hosting, atau cloud hosting. Anda juga bisa menjadi reseller hosting di sini. Selamat menikmati layanan hosting bersama kami.</p>
                         </Link>
                         <div className="spacer-10"></div>
                         <div className="widget">
@@ -97,7 +97,7 @@ const Footer = () => {
                             <div className="de-flex">
                                 <div className="de-flex-col">
                                     <Link href="">
-                                        Hak Cipta {currentYear} - Hostco oleh Designesia
+                                        Hak Cipta {currentYear} - vntagelabs oleh Designesia
                                     </Link>
                                 </div>
                                 <ul className="menu-simple">
