@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 import Topbar from '../../layout/Topbar';
 import Navbar from '../../layout/Navbar';
 import Package from '../../section/Package-Pt';
-import PackageDark from '../../section/Package-pt-Dark';
+import PackageDark from '../../section/Package-Pt-Dark';
 import Package4 from '../../section/Package4';
 import Package4Dark from '../../section/Package4-Dark';
 import Package5 from '../../section/Package5';
