@@ -97,7 +97,7 @@ const Footer = () => {
                             <div className="de-flex">
                                 <div className="de-flex-col">
                                     <Link href="">
-                                        Hak Cipta {currentYear} - vntagelabs oleh Designesia
+                                        Hak Cipta {currentYear} - VanCloud oleh Vntage Labs
                                     </Link>
                                 </div>
                                 <ul className="menu-simple">
