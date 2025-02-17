@@ -55,7 +55,7 @@ const Navbar = function () {
                             <Image width={300} height={300} src={'https://res.cloudinary.com/dt27bjldq/image/upload/v1739807305/logo_qeavtg.png'} className="img-fluid logo-main" alt="logo" />
                             <Image width={300} height={300} src={'https://res.cloudinary.com/dt27bjldq/image/upload/v1739807305/logo_qeavtg.png'} className="img-fluid logo-main white" alt="logo" />
                             <Image width={300} height={300} src={'https://res.cloudinary.com/dt27bjldq/image/upload/v1739807305/logo_qeavtg.png'} className="img-fluid logo-main green" alt="logo" />
-                            <Image width={300} height={300} src={'https://res.cloudinary.com/dt27bjldq/image/upload/v1739807305/logo_qeavtg.png'} className="img-fluid logo-mobile" alt="logo" />
+                            <Image width={85} height={85} src={'https://res.cloudinary.com/dt27bjldq/image/upload/v1739807305/logo_qeavtg.png'} className="img-fluid logo-mobile" alt="logo" />
                         </Link>
                     </div>
 
